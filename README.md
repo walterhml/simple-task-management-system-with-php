@@ -1,9 +1,9 @@
 # Documentação do Projeto: Gerenciador de Tarefas
-![image](/assents/gerenciadorDeTarefas.png)
+![image](/assets/gerenciadorDeTarefas.png)
 <hr>
-![image](/assents/firstTest.png)
+![image](/assets/firstTest.png)
 <hr>
-![image](/assents/testecorreto.png)
+![image](/assets/testecorreto.png)
 <hr>
 
 ## Visão Geral
