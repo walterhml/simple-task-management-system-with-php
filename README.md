@@ -1,10 +1,7 @@
 # Documentação do Projeto: Gerenciador de Tarefas
 ![image](/assets/gerenciadorDeTarefas.png)
 <hr>
-![image](/assets/firstTest.png)
-<hr>
-![image](/assets/testecorreto.png)
-<hr>
+
 
 ## Visão Geral
 Este projeto é um gerenciador de tarefas simples desenvolvido em PHP, que permite criar, atualizar, excluir e buscar tarefas. O objetivo é demonstrar o desenvolvimento de uma aplicação básica com foco em funcionalidades CRUD (Create, Read, Update, Delete) e testes automatizados usando o PHPUnit.
@@ -18,6 +15,11 @@ A lógica do gerenciador de tarefas está implementada na classe `Task` localiza
 - `fetch()`: Retorna todas as tarefas existentes.
 
 ## Testes Automatizados
+![image](/assets/firstTest.png)
+<hr>
+![image](/assets/testecorreto.png)
+<hr>
+
 Os testes automatizados são implementados na classe `TaskTest` localizada no arquivo `TaskTest.php` dentro do diretório `tests`. Esta classe utiliza o PHPUnit para testar os métodos da classe `Task`. Os testes incluem:
 
 - `testCreateTask()`: Verifica se uma tarefa é criada com sucesso.
