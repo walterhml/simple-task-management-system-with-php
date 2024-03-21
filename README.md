@@ -17,15 +17,14 @@ A lógica do gerenciador de tarefas está implementada na classe `Task` localiza
 ## Testes Automatizados
 ![image](/assets/firstTest.png)
 <hr>
-![image](/assets/testecorreto.png)
-<hr>
-
 Os testes automatizados são implementados na classe `TaskTest` localizada no arquivo `TaskTest.php` dentro do diretório `tests`. Esta classe utiliza o PHPUnit para testar os métodos da classe `Task`. Os testes incluem:
 
 - `testCreateTask()`: Verifica se uma tarefa é criada com sucesso.
 - `testUpdateTask()`: Verifica se uma tarefa é atualizada corretamente após a criação.
 - `testDeleteTask()`: Verifica se uma tarefa é excluída com sucesso.
 - `testFetchTasks()`: Verifica se a função de busca de tarefas retorna um array.
+![image](/assets/testecorreto.png)
+<hr>
 
 ## Como Contribuir
 Se você deseja contribuir para o projeto, siga estas etapas:
