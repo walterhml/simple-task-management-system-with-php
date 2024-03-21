@@ -5,6 +5,7 @@
 <hr>
 ![image](/assents/testecorreto.png)
 <hr>
+
 ## Visão Geral
 Este projeto é um gerenciador de tarefas simples desenvolvido em PHP, que permite criar, atualizar, excluir e buscar tarefas. O objetivo é demonstrar o desenvolvimento de uma aplicação básica com foco em funcionalidades CRUD (Create, Read, Update, Delete) e testes automatizados usando o PHPUnit.
 
