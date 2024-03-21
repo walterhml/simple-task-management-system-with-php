@@ -6,7 +6,7 @@ class Task
 
     public function create($title, $description)
     {
-        // Simula a criação de uma tarefa e retorna um ID fictício
+       
         $taskId = count($this->tasks) + 1;
         $this->tasks[$taskId] = ['title' => $title, 'description' => $description];
         return $taskId;
@@ -14,7 +14,7 @@ class Task
 
     public function update($taskId, $title, $description)
     {
-        // Simula a atualização de uma tarefa
+       
         if (isset($this->tasks[$taskId])) {
             $this->tasks[$taskId]['title'] = $title;
             $this->tasks[$taskId]['description'] = $description;
@@ -26,7 +26,7 @@ class Task
 
     public function delete($taskId)
     {
-        // Simula a exclusão de uma tarefa
+
         if (isset($this->tasks[$taskId])) {
             unset($this->tasks[$taskId]);
             return true;
